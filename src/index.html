@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>MySite</title>
+</head>
+
+<body class="body">
+	<div id="load" class="load"></div>
+	<div id="item" class="wrapper__iframe wrapper__iframe_hidden">
+		<div id="close" class="wrapper__iframe__close" onclick="closed()"></div>
+
+		<iframe id="item1" class="wrapper__iframe__item wrapper__iframe__item1 wrapper__iframe_hidden"
+			src="https://vprilu.github.io/Portfolio/" frameborder="0"></iframe>
+		<iframe id="item2" class="wrapper__iframe__item wrapper__iframe__item2 wrapper__iframe_hidden"
+			src="https://vprilu.github.io/preloader/" frameborder="0"></iframe>
+		<iframe id="item3" class="wrapper__iframe__item wrapper__iframe__item3 wrapper__iframe_hidden"
+			src="https://vprilu.github.io/Bicycle/" frameborder="0"></iframe>
+		<iframe id="item4" class="wrapper__iframe__item wrapper__iframe__item4 wrapper__iframe_hidden"
+			src="https://vprilu.github.io/Gallary/" frameborder="0"></iframe>
+
+	</div>
+	<div class="wrapper">
+		<img id="cloud1" src="img/Subtract.png" alt="cloud" class="wrapper__cloud wrapper__cloud1">
+		<img src="img/Subtract-1.png" alt="cloud" class="wrapper__cloud wrapper__cloud2">
+		<img src="img/Subtract-2.png" alt="cloud" class="wrapper__cloud wrapper__cloud3">
+		<img src="img/Subtract-3.png" alt="cloud" class="wrapper__cloud wrapper__cloud4">
+		<img src="img/Subtract-4.png" alt="cloud" class="wrapper__cloud wrapper__cloud5">
+		<img src="img/Subtract-5.png" alt="cloud" class="wrapper__cloud wrapper__cloud6">
+		<img src="img/Subtract-6.png" alt="cloud" class="wrapper__cloud wrapper__cloud7">
+		<img src="img/Subtract-7.png" alt="cloud" class="wrapper__cloud wrapper__cloud8">
+
+
+		<section class="logo">
+			<img src="img/logo.png" alt="Logo" class="logo__img">
+			<div class="logo__header">SoVi</div>
+		</section>
+
+
+		<section class="header">
+			<h1 class="header__text">Ваш сайт - не проблема! Ваш сайт - решение!</h1>
+			<!-- <h1 class="header__text header__text_hidden">Per aspera ad astra</h1> -->
+			<h1 class="header__text header__text_hidden">Десятки тысяч клиентов за несколько тысяч рублей? Легко!</h1>
+		</section>
+
+
+		<section class="works">
+			<div class="works__lines">
+				<div id="works__item1" class="works__item works__item1" onclick="popup1()"></div>
+				<div id="works__item2" class="works__item works__item2" onclick="popup2()"></div>
+				<div id="works__item3" class="works__item works__item3" onclick="popup3()"></div>
+				<div id="works__item4" class="works__item works__item4" onclick="popup4()"></div>
+			</div>
+	</div>
+	</section>
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
